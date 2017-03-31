@@ -1,0 +1,167 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\meng\Desktop\8.18步兵车--黄金合集\8.17步兵车--黄金合集\Project\STM32F4.uvproj
+Project File Date:  08/09/2016
+
+<h2>Output:</h2>
+Build target 'STM32F4'
+linking...
+Program Size: Code=40748 RO-data=1228 RW-data=652 ZI-data=3308  
+FromELF: creating hex file...
+".\Objects\STM32F4.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\meng\\Desktop\\8.18步兵车--黄金合集\\8.17步兵车--黄金合集\\Project\\Objects\\STM32F4.axf" 
+Set JLink Project File to "C:\Users\meng\Desktop\8.18步兵车--黄金合集\8.17步兵车--黄金合集\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F405RG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.76d, compiled Sep 13 2013 16:35:06
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F405RG
+VTarget = 3.228V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 500 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+</pre>
+</body>
+</html>
+x,sumy,sumz,sum_yaw;
+..\User\Prepare_data.c(162): warning:  #177-D: variable "z_num" was declared but never referenced
+        static uint8_t z_num = 0;
+..\User\Prepare_data.c: 4 warnings, 0 errors
+compiling Holder.c...
+compiling Remote.c...
+compiling Chassis_Control.c...
+..\User\Chassis_Control.c(155): warning:  #177-D: variable "enable" was declared but never referenced
+        uint8_t enable = 0;
+..\User\Chassis_Control.c: 1 warning, 0 errors
+compiling Wheel_Speed.c...
+..\User\Wheel_Speed.c(173): warning:  #177-D: variable "i" was declared but never referenced
+        int8_t i,wheel_cnt;
+..\User\Wheel_Speed.c(175): warning:  #177-D: variable "sum" was declared but never referenced
+        float sum[4];
+..\User\Wheel_Speed.c: 2 warnings, 0 errors
+compiling Shoot.c...
+compiling Load_motor.c...
+..\Mylib\Load_motor.c(136): warning:  #177-D: variable "shell_p_part" was declared but never referenced
+        float shell_delta,shell_p_part ;
+..\Mylib\Load_motor.c: 1 warning, 0 errors
+compiling OtherConfig.c...
+linking...
+Program Size: Code=40748 RO-data=1228 RW-data=652 ZI-data=3308  
+FromELF: creating hex file...
+".\Objects\STM32F4.axf" - 0 Error(s), 15 Warning(s).
+                float shell_delta , shell_p_part , shell_d_part;
+..\Vision\Hit.c(321): warning:  #177-D: function "VisonControl" was declared but never referenced
+  static void VisonControl(float target,uint8_t flag)
+..\Vision\Hit.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=40764 RO-data=1228 RW-data=652 ZI-data=3308  
+FromELF: creating hex file...
+".\Objects\STM32F4.axf" - 0 Error(s), 20 Warning(s).
+Load "C:\\Users\\meng\\Desktop\\8.18步兵车--黄金合集\\8.17步兵车--黄金合集\\Project\\Objects\\STM32F4.axf" 
+Set JLink Project File to "C:\Users\meng\Desktop\8.18步兵车--黄金合集\8.17步兵车--黄金合集\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F405RG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.76d, compiled Sep 13 2013 16:35:06
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F405RG
+VTarget = 3.241V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 500 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+ flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.76d, compiled Sep 13 2013 16:35:06
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: STM32F2xxx/STM32F4xxx: Can not attach to CPU. Trying connect under reset.
+**JLink Warning: RESET (pin 15) high, but should be low. Please check target hardware.
+***JLink Error: Supply voltage too low (1 Volt is required, Measured: 0.0 Volt).
+Please check target power.
+Error: Flash Download failed  -  Target DLL has been cancelled
+Load "C:\\Users\\meng\\Desktop\\8.18步兵车--黄金合集\\8.17步兵车--黄金合集\\Project\\Objects\\STM32F4.axf" 
+Set JLink Project File to "C:\Users\meng\Desktop\8.18步兵车--黄金合集\8.17步兵车--黄金合集\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F405RG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.76d, compiled Sep 13 2013 16:35:06
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F405RG
+VTarget = 3.241V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 500 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

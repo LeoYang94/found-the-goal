@@ -1,0 +1,152 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+H:\临时文件\基地云台改(6623x2)\Project\STM32F4.uvproj
+Project File Date:  03/26/2017
+
+<h2>Output:</h2>
+Build target 'STM32F4'
+compiling main.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\User\BKP_DATA.h(19): warning:  #1-D: last line of file ends without a newline
+..\User\MyWDG.h(13): warning:  #1-D: last line of file ends without a newline
+..\IMU\imu.h(22): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(100): warning:  #177-D: variable "speed_main" was declared but never referenced
+compiling referee.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\Project\auto_shoot.h(12): warning:  #1-D: last line of file ends without a newline
+..\Mylib\referee.c(226): warning:  #187-D: use of "=" where "==" may have been intended
+..\Mylib\referee.c(207): warning:  #550-D: variable "this_time_rx_len" was set but never used
+..\Mylib\referee.c(329): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=40020 RO-data=1228 RW-data=700 ZI-data=3356  
+FromELF: creating hex file...
+".\Objects\STM32F4.axf" - 0 Errors, 10 Warning(s).
+Load "H:\\临时文件\\基地云台改(6623x2)\\Project\\Objects\\STM32F4.axf" 
+Load "H:\\临时文件\\基地云台改(6623x2)\\Project\\Objects\\STM32F4.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "H:\\临时文件\\基地云台改(6623x2)\\Project\\Objects\\STM32F4.axf" 
+Load "H:\\临时文件\\基地云台改(6623x2)\\Project\\Objects\\STM32F4.axf" 
+Load "H:\\临时文件\\基地云台改(6623x2)\\Project\\Objects\\STM32F4.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F4'
+compiling main.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\User\BKP_DATA.h(19): warning:  #1-D: last line of file ends without a newline
+..\User\MyWDG.h(13): warning:  #1-D: last line of file ends without a newline
+..\IMU\imu.h(22): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(105): warning:  #177-D: variable "speed_main" was declared but never referenced
+compiling referee.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\Project\auto_shoot.h(12): warning:  #1-D: last line of file ends without a newline
+..\Mylib\referee.c(207): warning:  #550-D: variable "this_time_rx_len" was set but never used
+..\Mylib\referee.c(329): warning:  #1-D: last line of file ends without a newline
+compiling clock.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\IMU\imu.h(22): warning:  #1-D: last line of file ends without a newline
+..\User\clock.c(79): warning:  #177-D: variable "speed_clock" was declared but never referenced
+..\User\clock.c(255): warning:  #1-D: last line of file ends without a newline
+compiling auto_shoot.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+auto_shoot.h(12): warning:  #1-D: last line of file ends without a newline
+auto_shoot.c(24): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+auto_shoot.c(29): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+auto_shoot.c(31): warning:  #1-D: last line of file ends without a newline
+compiling PowerLimit.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\Mylib\PowerLimit.c(29): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+linking...
+Program Size: Code=40020 RO-data=1228 RW-data=700 ZI-data=3356  
+FromELF: creating hex file...
+".\Objects\STM32F4.axf" - 0 Errors, 20 Warning(s).
+Load "H:\\临时文件\\基地云台改(6623x2)\\Project\\Objects\\STM32F4.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F4'
+compiling main.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\User\BKP_DATA.h(19): warning:  #1-D: last line of file ends without a newline
+..\User\MyWDG.h(13): warning:  #1-D: last line of file ends without a newline
+..\IMU\imu.h(22): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(105): warning:  #177-D: variable "speed_main" was declared but never referenced
+compiling referee.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\Project\auto_shoot.h(12): warning:  #1-D: last line of file ends without a newline
+..\Mylib\referee.c(207): warning:  #550-D: variable "this_time_rx_len" was set but never used
+..\Mylib\referee.c(329): warning:  #1-D: last line of file ends without a newline
+compiling clock.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\IMU\imu.h(22): warning:  #1-D: last line of file ends without a newline
+..\User\clock.c(79): warning:  #177-D: variable "speed_clock" was declared but never referenced
+..\User\clock.c(255): warning:  #1-D: last line of file ends without a newline
+compiling auto_shoot.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+auto_shoot.h(12): warning:  #1-D: last line of file ends without a newline
+auto_shoot.c(24): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+auto_shoot.c(29): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+auto_shoot.c(31): warning:  #1-D: last line of file ends without a newline
+compiling PowerLimit.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\Mylib\PowerLimit.c(29): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+linking...
+Program Size: Code=40020 RO-data=1228 RW-data=700 ZI-data=3356  
+FromELF: creating hex file...
+".\Objects\STM32F4.axf" - 0 Errors, 20 Warning(s).
+Load "H:\\临时文件\\基地云台改(6623x2)\\Project\\Objects\\STM32F4.axf" 
+Load "H:\\临时文件\\基地云台改(6623x2)\\Project\\Objects\\STM32F4.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F4'
+compiling main.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\User\BKP_DATA.h(19): warning:  #1-D: last line of file ends without a newline
+..\User\MyWDG.h(13): warning:  #1-D: last line of file ends without a newline
+..\IMU\imu.h(22): warning:  #1-D: last line of file ends without a newline
+..\User\main.c(105): warning:  #177-D: variable "speed_main" was declared but never referenced
+compiling referee.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\Project\auto_shoot.h(12): warning:  #1-D: last line of file ends without a newline
+..\Mylib\referee.c(207): warning:  #550-D: variable "this_time_rx_len" was set but never used
+..\Mylib\referee.c(329): warning:  #1-D: last line of file ends without a newline
+compiling clock.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\IMU\imu.h(22): warning:  #1-D: last line of file ends without a newline
+..\User\clock.c(79): warning:  #177-D: variable "speed_clock" was declared but never referenced
+..\User\clock.c(255): warning:  #1-D: last line of file ends without a newline
+compiling auto_shoot.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+auto_shoot.h(12): warning:  #1-D: last line of file ends without a newline
+auto_shoot.c(24): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+auto_shoot.c(29): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+auto_shoot.c(31): warning:  #1-D: last line of file ends without a newline
+compiling PowerLimit.c...
+..\User\Holder.h(77): warning:  #1295-D: Deprecated declaration sub_pitch - give arg types
+..\Mylib\PowerLimit.c(29): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+linking...
+Program Size: Code=40020 RO-data=1228 RW-data=700 ZI-data=3356  
+FromELF: creating hex file...
+".\Objects\STM32F4.axf" - 0 Errors, 20 Warning(s).
+Load "H:\\临时文件\\基地云台改(6623x2)\\Project\\Objects\\STM32F4.axf" 
+Build target 'STM32F4'
+linking...
+Program Size: Code=40020 RO-data=1228 RW-data=700 ZI-data=3356  
+FromELF: creating hex file...
+".\Objects\STM32F4.axf" - 0 Errors, 0 Warning(s).
+Load "H:\\临时文件\\基地云台改(6623x2)\\Project\\Objects\\STM32F4.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "H:\\临时文件\\基地云台改(6623x2)\\Project\\Objects\\STM32F4.axf" 
